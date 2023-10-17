@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #242424;
+  color:white;
+  overflow-x: hidden;
+}
+
+.vote{
+ right:5px;
+ bottom: 9px
+}
+
+.movie{
+  max-width: 250px;
+  transition: all .4s;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.movie:hover{
+  scale:1.1;
+}
